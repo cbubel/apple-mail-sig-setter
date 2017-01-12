@@ -1,5 +1,4 @@
 #!/bin/bash
-FILE=$1
 CONTENTS=`cat $1`
 REPLACED=`echo $CONTENTS | sed -e 's/\\n//g'`
 cd ~/Library/Mail/V4/MailData/Signatures
